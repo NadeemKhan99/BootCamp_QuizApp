@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+.container{
+    max-width: 600px;
+    box-shadow: 0px 5px 24px #867a7a;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title{
+    margin: 0 auto;
+    color: red;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn_submit{
+    width: 100%;
+    border: none;
+    padding: 7px;
+    background-color: chartreuse;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.opt{
+    margin: 10px;
+    margin-bottom: 0;
 }
 
-.App-link {
-  color: #61dafb;
+h2{
+    text-align: center;
+    color: red;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h5{
+    text-align: center;
+    font-size: large;
+}
+
+.result{
+    color: darkgreen;
+    padding-right: 20px;
+}
+
+.total{
+    color: darkviolet;
+    padding-left: 20px;
+}
+
+.show_result{
+    text-align: center;
+    background-color: rgb(94, 141, 94);
+    margin-left: 255px;
+    border: none;
+    padding: 6px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+
+.label{
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.hide{
+    visibility: hidden;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.show{
+    visibility: visible;
+    color: red;
+    margin: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.resultshow{
+    max-width: 600px;
+    box-shadow: 0px 5px 24px #867a7a;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.correct{
+    background-color: rgb(131, 245, 131);
+}
+
+.false{
+    background-color: rgb(246, 117, 117);
+}
+
+#showoption{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
 }
