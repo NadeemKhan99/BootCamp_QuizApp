@@ -16,7 +16,7 @@ let App:React.FC<modeType> = ({ques,mode}) => {
   let [show, setshow] = useState(false);
   let [useranswer, setuseranswer] = useState<string[]>([]);
 
-  
+
 
   useEffect(() => {
     async function data_show() {
