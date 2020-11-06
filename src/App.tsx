@@ -24,7 +24,7 @@ let App:React.FC<modeType> = ({ques,mode}) => {
       quiz_data_set(real_data);
     }
     data_show();
-  }, []);
+  },[ques,mode]);
 
   if (!questions.length)
     return (<h1>Loading...</h1>)
